@@ -11,15 +11,15 @@
         <div class="container">
           <div class="text-center">
           <div class="row">
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-lg-offset-4">
               <h1 class="text-center">IP Subnet Calculator</h1>
             </div>
           </div>
           <div class="row py-1">
-            <div class="col-lg-4 bg-light col-lg-offset-4">
+            <div class="col-lg-4 bg-light">
               <h3 class="text-center">Network Class</h3>
             </div>
-            <div class="col-lg-4 col-lg-offset-4">
+            <div class="col-lg-4">
               <div class="network-class-select text-center" name="select-network-class">
                 <div class="form-check form-check-inline"> <label class="form-check-label">
                     <input class="form-check-input" type="radio" name="networkclass" id="networkclass-id-any" value="any"> Any
@@ -38,10 +38,10 @@
             </div>
           </div>
           <div class="row py-1">
-            <div class="col-md-4 bg-light">
+            <div class="col-lg-4 bg-light">
               <h3 class="text-center">Subnet</h3>
             </div>
-            <div class="col-md-8">
+            <div class="col-lg-8">
               <div class="choose-subnet">
                 <form class="form-inline text-center"> <select class="form-control w-100 py-2 text-center" id="choose-subnet-id">
                     <option value="none" selected="" hidden="">Choose the network class first</option>
@@ -57,7 +57,7 @@
               <input class="form-control form-control-lg text-center bg-light border border-dark" id="get-ipaddress-id" type="text" placeholder="Your IP Address (Example 158.1.1.1)" pattern="^(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)"> </div>
           </div>
           <div class="row">
-            <div class="text-left py-4">
+            <div class="text-center py-4  col-lg-4 col-lg-offset-4">
               <a class="btn btn-primary" id="calculate-button">Calculate</a>
             </div>
           </div>
@@ -157,8 +157,6 @@
               <div class="col-lg-4 py-2 col-lg-offset-4">
                 <p class="lead">Chokwaphat Sinmanakit 5810505937</p>
               </div>
-            </div>
-            <div class="col-lg-6 text-right py-2">
             </div>
           </div>
         </div>
